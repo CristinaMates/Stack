@@ -7,11 +7,6 @@ public class LinkedList {
         first = n;
     }
 
-    public Node deleteFirst() {
-        Node temp = first;
-        first = first.next;
-        return temp;
-    }
 
     public void displayList() {
         Node current = first;
